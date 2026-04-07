@@ -1,0 +1,8 @@
+/* How To Play Page Specific Styles */
+.how-to-play-bg {
+  background-attachment: fixed;
+}
+
+.step-number-glow {
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+}

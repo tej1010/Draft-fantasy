@@ -1,0 +1,10 @@
+/* Lobby Page Specific Styles */
+.lobby-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #05070A, #0A0F14);
+}
+
+.contest-list-grid {
+  display: grid;
+  gap: 1.5rem;
+}

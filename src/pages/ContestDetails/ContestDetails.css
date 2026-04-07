@@ -1,0 +1,12 @@
+/* Contest Details Page Specific Styles */
+.details-hero-gradient {
+  background: linear-gradient(180deg, rgba(0, 255, 136, 0.1) 0%, transparent 100%);
+}
+
+.sticky-cta-container {
+  background: linear-gradient(0deg, #05070A 0%, rgba(5, 7, 10, 0.8) 100%);
+}
+
+.tab-indicator {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

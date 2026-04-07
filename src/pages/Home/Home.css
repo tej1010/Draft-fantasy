@@ -1,0 +1,8 @@
+/* Home Page Specific Styles */
+.home-hero-gradient {
+  background: radial-gradient(circle at 20% 30%, rgba(0, 255, 136, 0.05) 0%, transparent 50%);
+}
+
+.feature-card-glow:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.1);
+}
