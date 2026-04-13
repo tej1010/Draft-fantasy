@@ -19,6 +19,7 @@ export default function Header() {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Lobby', path: '/lobby' },
+    { name: 'Fantasy', path: '/fantasy' },
     { name: 'How to Play', path: '/how-to-play' },
     { name: 'Promos', path: '/promos' },
   ];

@@ -1,0 +1,48 @@
+/* Salary Cap Builder Specific Styles */
+.salary-cap-container {
+  background: #05070A;
+  min-height: 100vh;
+}
+
+.sticky-header-draft {
+  background: rgba(5, 7, 10, 0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.slot-card {
+  transition: all 0.2s ease;
+}
+
+.slot-card-active {
+  border-color: var(--color-accent);
+  background: rgba(0, 255, 136, 0.05);
+}
+
+.player-row {
+  transition: background-color 0.2s ease;
+}
+
+.player-row:active {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.salary-bar-container {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.salary-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

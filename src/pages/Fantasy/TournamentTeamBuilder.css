@@ -1,0 +1,47 @@
+.tournament-builder-container {
+  min-height: 100vh;
+  background: #05070A;
+}
+
+.active-slot .slot-row-inner {
+  background: rgba(0, 255, 136, 0.05);
+  border-color: rgba(0, 255, 136, 0.3);
+}
+
+.active-slot {
+  transform: scale(1.02);
+}
+
+.slot-row {
+  position: relative;
+}
+
+.slot-row.active-slot::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 24px;
+  background: var(--color-accent);
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--color-accent);
+}
+
+.player-card {
+  transition: all 0.2s ease;
+}
+
+.player-card:hover {
+  transform: translateX(4px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

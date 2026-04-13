@@ -264,12 +264,24 @@ export default function ContestDetails() {
 
       {/* Sticky CTA */}
       <div className="fixed bottom-0 left-0 right-0 z-50 px-6 py-6 sticky-cta-container border-t border-white/5">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto grid grid-cols-3 gap-3">
           <button 
             onClick={() => navigate(`/draft/${id}`)}
-            className="w-full bg-accent text-primary py-4 rounded-2xl font-black text-lg hover:scale-[1.02] active:scale-[0.98] transition-all neon-glow uppercase tracking-tighter italic"
+            className="bg-white/5 text-white border border-white/10 py-4 rounded-2xl font-black text-[10px] hover:bg-white/10 transition-all uppercase tracking-tighter italic"
           >
-            Create Lineup
+            Snake
+          </button>
+          <button 
+            onClick={() => navigate(`/salary-cap/${id}`)}
+            className="bg-white/5 text-white border border-white/10 py-4 rounded-2xl font-black text-[10px] hover:bg-white/10 transition-all uppercase tracking-tighter italic"
+          >
+            Salary
+          </button>
+          <button 
+            onClick={() => navigate(`/auction/${id}`)}
+            className="bg-accent text-primary py-4 rounded-2xl font-black text-sm hover:scale-[1.02] active:scale-[0.98] transition-all neon-glow uppercase tracking-tighter italic"
+          >
+            Auction
           </button>
         </div>
       </div>
